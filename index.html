@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Quiz Oyunu</title>
+  <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="question-container">
+      <p id="question">Soru buraya gelecek</p>
+      <div class="answers">
+        <button class="answer">A</button>
+        <button class="answer">B</button>
+        <button class="answer">C</button>
+        <button class="answer">D</button>
+      </div>
+      <button id="next-button">Sonraki</button>
+    </div>
+    <div id="score-container" style="display: none;">
+      <h2>Quiz Bitti!</h2>
+      <p>Toplam Puan: <span id="score"></span></p>
+      <button onclick="location.reload()">Tekrar Oyna</button>
+    </div>
+  </div>
+  <p id="message" style="height: 24px; margin-top: 10px; font-weight: bold;"></p>
+  <p id="timer">Kalan Süre: 10</p>
+  <script src="js.js"></script>
+</body>
+</html>

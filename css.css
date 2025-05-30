@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(çizgi-film\ karakterleri.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .quiz-container {
+    background-color: #e7e5e5;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(26, 25, 25, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .answer {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .answer:hover {
+    background-color: #276138;
+  }
+  
+  #next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #next-button:hover {
+    background-color: #45a049;
+  }
+
+  #timer{
+    background-color: #28c9bb;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90px;
+    height: 60px;
+    margin-bottom: 500px;
+    margin-top: 370px;
+  }
+  .correct {
+    background-color: #4caf50 !important;
+    color: white;
+  }
+  
+  .wrong {
+    background-color: #f44336 !important;
+    color: white;
+  }
